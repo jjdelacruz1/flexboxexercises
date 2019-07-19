@@ -1,0 +1,50 @@
+* {
+  font-family: sans-serif;
+}
+
+header {
+  font-size: 100px;
+  text-align: center;
+  background: rgb(131, 202, 255);
+  border-right: 5px solid black;
+  border-left: 5px solid black;
+  border-top: 5px solid black;
+}
+
+main {
+  display: flex;
+}
+
+footer {
+  font-size: 100px;
+  text-align: center;
+  background: rgb(131, 202, 255);
+  border-right: 5px solid black;
+  border-left: 5px solid black;
+  border-bottom: 5px solid black;
+}
+
+li {
+  list-style: none;
+}
+nav, aside {
+  background: rgb(204, 153, 204);
+  flex: .5;
+  border: 5px solid black;
+}
+
+aside h2 {
+  font-size: 57px;
+  font-weight: normal;
+  text-align: center;
+  margin-top: 8px;
+}
+
+section {
+  background-color: rgb(255, 204, 204);
+  flex: 3;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  text-align: center;
+}
+
