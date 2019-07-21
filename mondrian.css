@@ -1,0 +1,100 @@
+.whole {
+  display: flex;
+  border: 1px solid black;
+  height: 100vh;
+}
+
+.one, .two, .three {
+  display: flex;
+  flex: 1;
+  border: 1px solid black;
+}
+
+.two {
+  display: block;
+}
+
+.first {
+  flex: 1;
+  border: 1px solid black;
+}
+
+.second {
+  flex: 2;
+  border: 1px solid black;
+}
+
+.temp {
+  border: 1px solid yellow;
+  height: 50vh;
+  flex: 1;
+  display: flex;
+}
+
+.temp1,.temp2{
+  border: 1px solid black;
+  height: 50vh;
+  width: 50%;
+}
+
+.firstyellow {
+  border: 1px solid black;
+  background: yellow;
+  height: 10vh;
+}
+
+.secondyellow {
+  border: 1px solid black;
+  background: yellow;
+  height: 20vh;
+}
+
+.firstwhite {
+  border: 1px solid black;
+  width: 50%;
+  height: 19.5vh;
+}
+
+.secondwhite {
+  border: 1px solid black;
+  width: 50%;
+  height: 19.5vh;
+}
+
+.split {
+  display: flex;
+}
+
+.blue {
+  background: blue;
+  height: 20vh;
+  border: 1px solid black;
+}
+
+.red {
+  background: red;
+  height: 20vh;
+  border: 1px solid black;
+}
+
+.white {
+  height: 10vh;
+}
+
+.temp2 {
+  display: block;
+}
+
+.white1 {
+  height: 10vh;
+}
+
+.blue1 {
+  background: blue;
+  height: 20vh;
+}
+
+.red1 {
+  background: red;
+  height: 20vh;
+}
