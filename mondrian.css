@@ -65,6 +65,17 @@
   display: flex;
 }
 
+.bottom {
+  border: 1px solid pink;
+  display: flex;
+  flex: 1;
+}
+
+.bottomleft,.bottomright{
+  border: 1px solid black;
+  height: 50vh;
+  width: 50%;
+}
 .blue {
   background: blue;
   height: 20vh;
@@ -97,4 +108,33 @@
 .red1 {
   background: red;
   height: 20vh;
+}
+
+.split1,.split2{
+  display: flex;
+}
+
+.split1 .white1,.white2 {
+  height: 20vh;
+  flex: 1;
+  border: 1px solid black;
+}
+
+.bottomright .yellowsquare{
+  background: yellow;
+  height: 20vh;
+  flex: 1;
+  border: 1px solid black;
+}
+
+.split2 .white3 {
+  flex: 1;
+  height: 10vh;
+  border: 1px solid black;
+}
+
+.split2 .black1 {
+  flex: 1;
+  height: 10vh;
+  background: black;
 }
