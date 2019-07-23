@@ -138,3 +138,57 @@
   height: 10vh;
   background: black;
 }
+
+.three {
+  display: flex;
+  flex: 1;
+  height: 50vh;
+}
+
+.threetop {
+  flex-direction: column;
+}
+
+.threesplit {
+  display: flex;
+}
+
+.threeyellow {
+  width: 50%;
+  background: yellow;
+  height: 10vh;
+}
+
+.threeblack {
+  width: 50%;
+  background: black;
+  color: white;
+  height: 10vh;
+}
+
+.threewhitetop {
+  /* flex: ; */
+  border: 1px solid black;
+}
+
+.threesplitbottom {
+  flex-direction: column;
+}
+
+.threeyellowbig {
+  border: 1px solid black;
+  background: yellow;
+  height: 10vh;
+}
+
+.threeblackbig {
+  border: 1px solid black;
+  background: black;
+  color: white;
+  height: 10vh;
+}
+
+.threewhite {
+  border: 1px solid black;
+  height: 10vh;
+}
