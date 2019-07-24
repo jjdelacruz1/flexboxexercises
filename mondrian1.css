@@ -1,0 +1,115 @@
+.whole {
+  display: flex;
+  border: 1px solid gray;
+  height: 100vh;
+}
+
+.section1, .section2, .section3 {
+  flex: 1;
+  border: 1px solid black;
+}
+
+.section2top, .section2bottom {
+  display: flex;
+}
+
+.section2lefttopsplit, .section2rightbottomsplit {
+  display: flex;
+  height: 40%;
+}
+
+.section2lefttop, .section2righttop, .section2leftbottom, .section2rightbottom {
+  flex: 1;
+  border: 1px solid black;
+  height: 50vh;
+}
+
+.righttopblue, .leftbottomblue {
+  background: blue;
+  height: 40%;
+  border: 1px solid black;
+
+}
+
+.righttopred, .leftbottomred {
+  background: red;
+  height: 40%;
+  border: 1px solid black;
+
+}
+
+.righttopwhite, .leftbottomwhite {
+  height: 20%;
+  border: 1px solid black;
+
+}
+
+.lefttopyellow {
+  background: yellow;
+  height: 20%;
+  border: 1px solid black;
+
+}
+
+.lefttopyellow2, .rightbottomyellow {
+  background: yellow;
+  height: 40%;
+  border: 1px solid black;
+}
+
+.lefttopwhite, .lefttopwhite2, .rightbottomwhite, .rightbottomwhite1 {
+  width: 50%;
+  border: 1px solid black;
+}
+
+.section2rightbottomsplit1 {
+  display: flex;
+  height: 20%;
+}
+
+.rightbottomwhite2 {
+  width: 50%;
+  border: 1px solid black;
+}
+
+.rightbottomblack {
+  width: 50%;
+  background: black;
+}
+
+.section3top, .section3bottom {
+  height: 10%;
+  display: flex;
+  border: 1px solid black;
+}
+
+.section3middle {
+  display: flex;
+  height: 80%;
+  border: 1px solid black;
+}
+
+.s3topyellow {
+  width: 20%;
+  background: yellow;
+}
+
+.s3topblack {
+  width: 20%;
+  background: black;
+}
+
+.s3topwhite {
+  width: 60%;
+}
+
+.s3bottomwhite {
+  width: 60%;
+  border: 1px solid black;
+}
+
+.s3bottomwhite1 {
+  width: 40%;
+  border: 1px solid black;
+}
+
