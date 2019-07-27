@@ -10,8 +10,137 @@
   border: 1px solid black;
 }
 
-.s2 {
+.s1top {
+  display: flex;
+  flex: 1;
+}
+
+.s1topwhite {
+  flex: 1;
+  border: 1px solid black;
+}
+
+.s1topwhite1 {
+  flex: 3;
+  border: 1px solid black;
+}
+
+.s1mid {
+  display: flex;
+  flex: 8;
+}
+
+.s1bottom {
+  display: flex;
+  flex: 1;
+  border: 1px solid black;
+}
+
+.s1, .s2, .s1midleft, .s1midright {
   flex-direction: column;
+}
+
+.s1midleft {
+  display: flex;
+  flex: 1;
+  border: 1px solid black;
+}
+
+.s1midright {
+  display: flex;
+  flex: 4;
+  border: 1px solid black;
+}
+
+.s1midleftbottom {
+  display: flex;
+}
+
+.s1midleftbot, .s1midleftbotright {
+  flex: 1;
+  border: 1px solid black;
+}
+
+.s1midtopred {
+  flex: 1;
+  background: red;
+  border: 1px solid black;
+}
+
+.s1midleftbottom {
+  flex: 1;
+  border: 1px solid black;
+}
+
+.s1midleftbot {
+  display: flex;
+  flex-direction: column;
+}
+
+.s1midleftbotblack {
+  flex: 1;
+  background: black;
+}
+
+.s1midleftbotwhite {
+  flex: 1;
+  border: 1px solid black;
+}
+
+.s1midwhitetop {
+  flex: 1;
+  border: 1px solid black;
+}
+
+.s1midwhitetop1 {
+  flex: 2;
+  border: 1px solid black;
+}
+
+
+
+.s1midyellowtop {
+  flex: 2;
+  border: 1px solid black;
+  background: yellow;
+}
+
+.s1midleftbotright {
+  display: flex;
+  flex-direction: column;
+}
+
+.s1horizontal {
+  display: flex;
+  flex: 1.5;
+  border: 1px solid black;
+  flex-direction: column;
+}
+
+.s1hwhite {
+  flex: 1;
+  border: 1px solid black;
+}
+
+.s1hblack {
+  flex: 1;
+  background: black;
+}
+
+.s1vertical {
+  display: flex;
+  flex: 1;
+  border: 1px solid black;
+}
+
+.s1vyellow {
+  flex: 1;
+  border: 1px solid black;
+  background: yellow;
+}
+
+.s1vwhite {
+  flex: 1;
 }
 
 .s2top {
@@ -233,4 +362,48 @@
   flex: 1;
   border: 1px solid black;
   background: blue;
+}
+
+.s3midtop {
+  flex: 1;
+  display: flex;
+}
+
+.s3midtopleft {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.s3midtopleftyellow {
+  flex: 1;
+  background: yellow;
+  border: 1px solid black;
+}
+
+.s3midtopleftblack {
+  flex: 1;
+  background: black;
+  border: 1px solid black;
+}
+
+.s3midtopleftwhite {
+  flex: 1;
+  border: 1px solid black;
+}
+
+.s3midtopright {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.s3midtoprightwhite {
+  flex: 1;
+  border: 1px solid black;
+}
+
+.s3midtoprightblack {
+  flex: 1;
+  background: black;
 }
